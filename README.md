@@ -332,8 +332,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@agravi987](https://github.com/agravi987)
+- Email: agpashupati@gmail.com
 
 ---
 
@@ -344,19 +344,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Groq](https://groq.com/) for high-performance LLM inference
 - [ChromaDB](https://www.trychroma.com/) for vector database
 - [HuggingFace](https://huggingface.co/) for embedding models
-
----
-
-## 📊 Future Enhancements
-
-- [ ] Support for multiple PDF formats (DOCX, TXT, etc.)
-- [ ] Batch PDF processing
-- [ ] Export summaries to different formats
-- [ ] Chat history for Q&A sessions
-- [ ] User authentication and document management
-- [ ] Advanced search filters
-- [ ] Custom model selection
-- [ ] API endpoint for programmatic access
 
 ---
 
