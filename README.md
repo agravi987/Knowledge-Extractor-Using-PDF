@@ -26,6 +26,19 @@ The application uses vector embeddings and semantic search to retrieve relevant 
 
 ---
 
+## 📸 Screenshots
+
+### Upload PDF
+![Upload PDF](ui_images/Upload.png)
+
+### PDF Summarizer
+![PDF Summarizer](ui_images/summary.png)
+
+### Ask Questions
+![Ask Questions](ui_images/QnA.png)
+
+---
+
 ## ✨ Features
 
 - 📤 **Easy PDF Upload** - Simple drag-and-drop interface for uploading PDF documents
@@ -165,6 +178,8 @@ The application will open in your default web browser at `http://localhost:8501`
 
 ### Step 1: Upload PDF Document
 
+![Upload PDF Interface](ui_images/Upload.png)
+
 1. Navigate to the **"Upload PDF"** section in the sidebar
 2. Click on the file uploader or drag and drop your PDF file
 3. Wait for the document to be processed and indexed
@@ -172,12 +187,16 @@ The application will open in your default web browser at `http://localhost:8501`
 
 ### Step 2: Generate Summary
 
+![PDF Summarizer Interface](ui_images/summary.png)
+
 1. Go to the **"PDF Summarizer"** section
 2. Click the **"Generate Summary"** button
 3. The AI will analyze your document and generate a comprehensive summary
 4. The summary will appear below the button
 
 ### Step 3: Ask Questions
+
+![Q&A Interface](ui_images/QnA.png)
 
 1. Navigate to the **"Ask Questions"** section
 2. Enter your question in the text input field
@@ -208,6 +227,12 @@ pdf-analyzer-rag-application/
 ├── .env                   # Environment variables (create this)
 ├── .gitignore            # Git ignore file
 ├── README.md             # Project documentation
+├── LICENSE               # MIT License file
+│
+├── ui_images/            # Application screenshots
+│   ├── Upload.png        # Upload PDF interface screenshot
+│   ├── summary.png       # PDF Summarizer interface screenshot
+│   └── QnA.png          # Ask Questions interface screenshot
 │
 ├── chroma_db/            # ChromaDB persistent storage (auto-created)
 ├── data_source/          # Temporary PDF storage (auto-created)
